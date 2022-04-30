@@ -27,7 +27,7 @@ STEPS TO CREATE MAP IN EMPTY ACTIVITY :-
               
        
        
-3. In .java file
+3. .java file
      
      
                package com.example.map;
@@ -75,7 +75,7 @@ STEPS TO CREATE MAP IN EMPTY ACTIVITY :-
                
                
                
-4. In .xml file 
+4. .xml file 
       
       
       
