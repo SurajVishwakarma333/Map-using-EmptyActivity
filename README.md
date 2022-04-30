@@ -1,5 +1,5 @@
 # Map-using-Empty-Activity-
-Android application which shows my specified Location. In this i used Empty Activity.
+Android application which shows my specified Location. For creating project i used Empty Activity.
 
 
 STEPS TO CREATE MAP IN EMPTY ACTIVITY :-
