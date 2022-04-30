@@ -156,7 +156,114 @@ NOTES :-
         
         
         
+   when viewed close up, will have 3D buildings visible
+   
+   
         
+        
+   
+        
+        GoogleMap.setBuildingsEnabled(true)
+        
+        
+        
+        
+        
+  Changing zoom level and setting minimum/maximum zoom      
+        
+        
+        
+        map.setMinZoomPreference(6.0f);
+        map.setMaxZoomPreference(14.0f);
+        CameraUpdateFactory.zoomIn();
+        CameraUpdateFactory.zoomOut();
+        CameraUpdateFactory.zoomTo(float);
+        CameraUpdateFactory.zoomBy(float); 
+        CameraUpdateFactory.zoomBy(float, Point);
+        
+        
+        
+        
+        
+  Move the camera instantly to India with a zoom of 15.
+  
+  
+  
+  
+
+  
+  
+        map.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 15));
+        
+        
+      
+      
+      
+        
+  Zoom in, animating the camera.     
+        
+        
+        
+        
+        
+        
+        
+        map.animateCamera(CameraUpdateFactory.zoomIn());
+        
+        
+        
+        
+        
+  Zoom out to zoom level 10, animating with a duration of 2 seconds.      
+        
+        
+        
+        
+        
+        
+        map.animateCamera(CameraUpdateFactory.zoomTo(10), 2000, null);
+        
+        
+        
+  
+  for compass on map
+  
+  
+  
+        mUiSettings.setCompassEnabled(true);
+        mUiSettings.setCompassEnabled(false);
+        
+        
+        
+  for zoomin/zoomout button +/- button on map      
+
+
+        package com.example.chaseapppractice;
+        
+        import android.os.Bundle;
+
+        public class MainActivity extends FragmentActivity implements OnMapReadyCallback {
+        
+        private UiSettings mUiSettings;
+        
+         @Override
+        protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        }
+        Override
+        public void onMapReady(@NonNull GoogleMap googleMap) {
+        LatLng Mumbai = new LatLng(19.17, 72.83);
+        map=googleMap;
+
+        map.addMarker(new MarkerOptions().position(Mumbai).title("Marker in India"));
+        map.moveCamera(CameraUpdateFactory.newLatLng(Mumbai));
+        
+        mUiSettings = map.getUiSettings();
+        mUiSettings.setZoomControlsEnabled(true);
+        
+              }
+        }
   
         
         
