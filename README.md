@@ -144,7 +144,7 @@ NOTES :-
    
    
         map.moveCamera(CameraUpdateFactory.newLatLng(Mumbai));
-        googleMap.moveCamera(CameraUpdateFactory.zoomTo(15)); 
+        map.moveCamera(CameraUpdateFactory.zoomTo(15)); 
         
         
    to add traffic line.    
