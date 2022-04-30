@@ -13,7 +13,7 @@ STEPS TO CREATE MAP IN EMPTY ACTIVITY :-
               
               
               
-    2. add permissions in Manifest.xml and then give API_KEY
+    2. add permissions and give API_KEY in Manifest.xml 
     
     
     
