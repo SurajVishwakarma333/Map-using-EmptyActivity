@@ -138,13 +138,13 @@ NOTES :-
    
         map.addMarker(new MarkerOptions().position(Mumbai).title("Marker in India"));
         
-   to move camera to the marker.     
+   Move the camera to the map marker and zoom in closer.     
    
    
    
    
         map.moveCamera(CameraUpdateFactory.newLatLng(Mumbai));
-        
+        googleMap.moveCamera(CameraUpdateFactory.zoomTo(15)); 
         
         
    to add traffic line.    
@@ -157,8 +157,7 @@ NOTES :-
         
         
         
-        
-        
+  
         
         
         
