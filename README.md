@@ -15,12 +15,23 @@ NOTES :-
         
         
    to add marker.      
+   
+   
+   
         map.addMarker(new MarkerOptions().position(Mumbai).title("Marker in India"));
         
    to move camera to the marker.     
+   
+   
+   
+   
         map.moveCamera(CameraUpdateFactory.newLatLng(Mumbai));
         
         
         
    to add traffic line.    
+   
+   
+   
+   
         map.setTrafficEnabled(true);
