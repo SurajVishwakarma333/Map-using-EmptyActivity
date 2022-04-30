@@ -1,8 +1,6 @@
 # Map-using-Empty-Activity-
 Android application which shows my specified Location. For creating project i used Empty Activity.
 
-       ![WhatsApp Image 2022-04-18 at 3 12 04 PM](https://user-images.githubusercontent.com/101108540/163790336-514d27ff-f04f-4839-99c3-17625803f473.jpeg) 
-
 
 STEPS TO CREATE MAP IN EMPTY ACTIVITY :-
 
