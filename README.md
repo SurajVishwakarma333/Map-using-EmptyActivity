@@ -4,7 +4,7 @@ Android application which shows my specified Location. For creating project i us
 
 STEPS TO CREATE MAP IN EMPTY ACTIVITY :-
 
-    1. add dependency in build.gradle(app level)
+1. add dependency in build.gradle(app level)
     
     
     
@@ -13,7 +13,7 @@ STEPS TO CREATE MAP IN EMPTY ACTIVITY :-
               
               
               
-    2. add permissions and give API_KEY in Manifest.xml 
+2. add permissions and give API_KEY in Manifest.xml 
     
     
     
@@ -27,7 +27,7 @@ STEPS TO CREATE MAP IN EMPTY ACTIVITY :-
               
        
        
-     3. In .java file
+3. In .java file
      
      
                package com.example.map;
@@ -75,7 +75,7 @@ STEPS TO CREATE MAP IN EMPTY ACTIVITY :-
                
                
                
-     3. In .xml file 
+4. In .xml file 
       
       
       
